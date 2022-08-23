@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>UrlopyDelegacje2._0</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyVersion>0.0.7.9</AssemblyVersion>
-    <FileVersion>0.0.7.9</FileVersion>
+    <AssemblyVersion>0.0.7.11</AssemblyVersion>
+    <FileVersion>0.0.7.11</FileVersion>
     <PackageIcon>icon.ico</PackageIcon>
     <RepositoryUrl>https://github.com/emjotbee/UrlopyDelegacje2.0</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
