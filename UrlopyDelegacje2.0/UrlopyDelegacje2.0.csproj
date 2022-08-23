@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/emjotbee/UrlopyDelegacje2.0</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <Copyright>Kamil Klonica</Copyright>
-    <AssemblyName>UrlopyDelegacje</AssemblyName>
+    <AssemblyName>UrlopyDelegacje2.0</AssemblyName>
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
 
