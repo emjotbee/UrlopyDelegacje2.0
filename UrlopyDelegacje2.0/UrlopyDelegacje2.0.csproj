@@ -5,12 +5,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>UrlopyDelegacje2._0</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyVersion>0.0.7.8</AssemblyVersion>
-    <FileVersion>0.0.7.7</FileVersion>
-    <PackageIcon>icon.jpg</PackageIcon>
+    <AssemblyVersion>0.0.7.9</AssemblyVersion>
+    <FileVersion>0.0.7.9</FileVersion>
+    <PackageIcon>icon.ico</PackageIcon>
     <RepositoryUrl>https://github.com/emjotbee/UrlopyDelegacje2.0</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <Copyright>Kamil Klonica</Copyright>
+    <AssemblyName>UrlopyDelegacje</AssemblyName>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,11 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Desktop\icon.jpg">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-    <None Include="icon.jpg">
+    <None Include="icon.ico">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
