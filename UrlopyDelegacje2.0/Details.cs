@@ -172,7 +172,7 @@ namespace UrlopyDelegacje
 			button1.Enabled = true;
 		}
 
-		private void OpenWniosek(string _path)
+		public void OpenWniosek(string _path)
 		{
 			Microsoft.Office.Interop.Word.Application obj = (Microsoft.Office.Interop.Word.Application)Activator.CreateInstance(Marshal.GetTypeFromCLSID(new Guid("000209FF-0000-0000-C000-000000000046")));
 			obj.Visible = true;
@@ -586,21 +586,21 @@ namespace UrlopyDelegacje
             string path = Path.Combine(Form1.dataPath, "pws_template.doc");
             if (!File.Exists(path))
             {
-                LoadTemplate();
+                LoadTemplate("pws_template.doc");
             }
             else
             {
                 SaveWniosek();
             }
         }
-        private void LoadTemplate()
+        public void LoadTemplate(string _tmpname)
         {         
-            string destFileName = Path.Combine(Form1.dataPath, "pws_template.doc");
+            string destFileName = Path.Combine(Form1.dataPath, _tmpname);
             SystemSounds.Beep.Play();
-            MessageBox.Show("Załaduj szablon polecenia wyjazdu służbowego", "Błąd");
-            openFileDialog1.FileName = "pws_szablon.doc";
-            openFileDialog1.Title = "Załaduj szablon polecenia wyjazdu służbowego";
-            openFileDialog1.Filter = "Text files (*.doc)|*.doc|All files (*.*)|*.*";
+            MessageBox.Show("Załaduj szablon", "Błąd");
+            openFileDialog1.FileName = _tmpname;
+            openFileDialog1.Title = "Załaduj szablon";
+            openFileDialog1.Filter = "All files (*.*)|*.*";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 try

@@ -625,7 +625,7 @@ namespace UrlopyDelegacje
 
 		private void WersjaToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("Wersja " + version + "\nAutor: Kamil Kłonica\nEmail: kamil.klonica@komanord.pl\n©2022", "Urlopy " + version );
+			MessageBox.Show("Wersja " + version + "\nAutor: Kamil Kłonica\nEmail: kamil.klonica@komanord.pl\n©2022", "UrlopyDelegacje " + version );
 		}
 
 		private void FillComboBox()
@@ -891,11 +891,11 @@ namespace UrlopyDelegacje
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.monthCalendar1);
-            this.groupBox1.Location = new System.Drawing.Point(618, 122);
+            this.groupBox1.Location = new System.Drawing.Point(618, 125);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox1.Size = new System.Drawing.Size(308, 390);
+            this.groupBox1.Size = new System.Drawing.Size(308, 387);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kalendarz";
