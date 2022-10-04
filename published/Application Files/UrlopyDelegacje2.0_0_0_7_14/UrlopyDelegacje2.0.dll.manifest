@@ -90,13 +90,13 @@
       <dsig:DigestValue>CxQhVraHPVMjQ7TKcQXxlgB5GxhfYIW7hwPvKR/pqtY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="UrlopyDelegacje2.0.dll" size="334336">
+  <file name="UrlopyDelegacje2.0.dll" size="333824">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Tra9hWPMstwo1SJBv5rs5JWv461pxjZWXt2/1dOohX0=</dsig:DigestValue>
+      <dsig:DigestValue>KdhL6rawvPHEFb+rE5VO0CyGI0rzLS4D3B9N/i/g04w=</dsig:DigestValue>
     </hash>
   </file>
   <file name="UrlopyDelegacje2.0.exe" size="242688">
@@ -105,7 +105,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ldzw7Lvf0x6E9yQjUCaCaHgEI1BOWRkgEiD/a9g6f3c=</dsig:DigestValue>
+      <dsig:DigestValue>aYE9nPj54EWiP3nqb3xsXMAdLKH1gblvH6BmO0EvSJg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="UrlopyDelegacje2.0.runtimeconfig.json" size="161">
