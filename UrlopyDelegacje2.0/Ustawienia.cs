@@ -477,6 +477,7 @@ namespace UrlopyDelegacje
             else
             {
                 details.LoadTemplate("template.docx");
+                FillKonfiguracja();
             }
         }
 
@@ -490,6 +491,7 @@ namespace UrlopyDelegacje
             else
             {
                 details.LoadTemplate("pws_template.doc");
+                FillKonfiguracja();
             }
         }
 

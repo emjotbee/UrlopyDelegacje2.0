@@ -629,7 +629,7 @@ namespace UrlopyDelegacje
                 return;
             }
             string lokom = "";
-            int sumadoj = 0;
+            double sumadoj = 0;
             double diety = 0;
             File.Copy(sourceFileName, saveFileDialog1.FileName, overwrite: true);
             object fileName = saveFileDialog1.FileName;
@@ -680,7 +680,7 @@ namespace UrlopyDelegacje
                         }
                     }
                     form.FindAndReplace(application, $"<koszt{i}>", dataGridView1.Rows[i].Cells["Koszt"].Value.ToString() + " zł");
-                    sumadoj += Convert.ToInt32(dataGridView1.Rows[i].Cells["Koszt"].Value);
+                    sumadoj += Convert.ToDouble(dataGridView1.Rows[i].Cells["Koszt"].Value);
                 }
                 for (int i = 0; i < 4; i++)
                 {
