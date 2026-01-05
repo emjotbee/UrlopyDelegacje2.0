@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>UrlopyDelegacje2._0</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyVersion>0.0.7.16</AssemblyVersion>
-    <FileVersion>0.0.7.16</FileVersion>
+    <AssemblyVersion>0.0.7.17</AssemblyVersion>
+    <FileVersion>0.0.7.17</FileVersion>
     <PackageIcon>icon.ico</PackageIcon>
     <RepositoryUrl>https://github.com/emjotbee/UrlopyDelegacje2.0</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
@@ -16,14 +16,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RestSharp" Version="106.11.7" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="Microsoft.Office.Interop.Word">
-      <HintPath>..\..\..\..\..\..\nowy move\move2\Test_UD\bin\Debug\net472\Microsoft.Office.Interop.Word.dll</HintPath>
-      <Private>true</Private>
-      <EmbedInteropTypes>true</EmbedInteropTypes>
+      <HintPath>..\published\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\published\RestSharp.dll</HintPath>
     </Reference>
   </ItemGroup>
 
